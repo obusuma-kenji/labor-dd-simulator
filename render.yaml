@@ -1,0 +1,6 @@
+services: 
+  - type: web 
+    name: labor-dd-simulator 
+    env: static 
+    buildCommand: npm install && npm run build 
+    staticPublishPath: ./dist 
